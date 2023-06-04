@@ -1,6 +1,6 @@
 # fyp_Model_Comparsion
 
-A Comparison of the Performance of VADER and Twitter-roBERTa-base Sentiment Analysis Models on YouTube Comments
+A Comparison of the Performance of VADER and Twitter-roBERTa-base Sentiment Analysis Models on YouTube Comments.
 
 ## Retrieving Comments for Comparison
 The YouTube Data API was used to fetch all the possible categories for a video on YouTube. As a region had to be chosen to retrieve the categories, the US was chosen as it’s the default region on YouTube and has all the available categories. The 32 total categories that were retrieved were then used to retrieve 32 comments each. However, it was quickly realized that a lot of these categories were not appropriate for comment retrieval as they either had no or very few videos associated with them.
