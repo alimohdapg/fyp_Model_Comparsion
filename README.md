@@ -2,7 +2,7 @@
 
 A Comparison of the Performance of VADER and Twitter-roBERTa-base Sentiment Analysis Models on YouTube Comments.
 
-The project [fypbackend](https://github.com/alimohdapg/fypbackend) uses the fine-tuned Twitter-roBERTa-base model that this comparasion found to be the best among the other models.
+The project [fypbackend](https://github.com/alimohdapg/fypbackend) uses the fine-tuned Twitter-roBERTa-base model that this comparison found to be the best among the other models.
 
 ## Retrieving Comments for Comparison
 The YouTube Data API was used to fetch all the possible categories for a video on YouTube. As a region had to be chosen to retrieve the categories, the US was chosen as it’s the default region on YouTube and has all the available categories. The 32 total categories that were retrieved were then used to retrieve 32 comments each. However, it was quickly realized that a lot of these categories were not appropriate for comment retrieval as they either had no or very few videos associated with them.
